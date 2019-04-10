@@ -24,15 +24,15 @@
 
 ## MySQL 테이블 생성!
 
-create table tableboard_shop(
-num int not null auto_increment, 
-date char(20),
-order_id int,
-name char(20),
-price int,
-quantity int,
-primary key(num)
-  );
+    create table tableboard_shop(
+    num int not null auto_increment, 
+    date char(20),
+    order_id int,
+    name char(20),
+    price int,
+    quantity int,
+    primary key(num)
+    );
   
 Note: 
 - table 이름은 tableboard_shop 으로 생성
